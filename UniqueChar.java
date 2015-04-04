@@ -6,6 +6,7 @@ package chapter1;
 */		
 public class UniqueChar {
 	/*
+	 * 1.1
 	 * For simplicity, assume char set is ASCII (if not, we need to increase the storage size. 
 	 * The rest of the logic would be the same). 
 	 * NOTE: This is a great thing to point out to your interviewer!
