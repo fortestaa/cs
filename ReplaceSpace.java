@@ -1,6 +1,6 @@
 package chapter1;
 
-/*Write a method to replace all spaces in a string with ‘%20’.*/
+/* 1.5 Write a method to replace all spaces in a string with ‘%20’. */
 
 public class ReplaceSpace {
 	/*The algorithm is as follows
