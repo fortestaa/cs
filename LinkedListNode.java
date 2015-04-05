@@ -1,5 +1,6 @@
 package chapter2;
 
+/* 2.4 */
 public class LinkedListNode {
 	LinkedListNode next = null;
 	int data;
