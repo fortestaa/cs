@@ -24,6 +24,42 @@ package easy;
  */
 public class Intersection_of_Two_Linked_Lists {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null)	return null;
+        int lenA = length(headA);
+        int lenB = length(headB);
+        int diff = Math.abs(lenA - lenB);
         
+        if (lenA > lenB) {
+        	while (diff-- > 0)
+        		headA = headA.next;
+        } else {
+        	while (diff-- > 0)
+        		headB = headB.next;
+        }
+        
+        for (; headA != null && headB != null; headA = headA.next, headB = headB.next) {
+        	if (headA.equals(headB))
+        		return headA;
+        }
+        return null;
+    }
+	
+	private int length(ListNode n) {
+		if (n == null)	return 0;
+		int length = 0;
+		while (n != null) {
+			length++;
+			n = n.next;
+		}
+		return length;
+	}
+	
+	public class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 }
