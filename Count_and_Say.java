@@ -26,7 +26,7 @@ public class Count_and_Say {
 			res = sb.toString();
 		}
 		return res;
-	}k
+	}
 
 	/*public static void main(String[] args) {
 		Count_and_Say c = new Count_and_Say();
