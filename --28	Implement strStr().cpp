@@ -2,9 +2,6 @@
 //  28	Implement strStr().cpp
 //  test
 //
-//  Created by AmyJiang on 15/2/10.
-//  Copyright (c) 2015年 AmyJiang. All rights reserved.
-//
 
 #include <stdio.h>
 #include <iostream>
